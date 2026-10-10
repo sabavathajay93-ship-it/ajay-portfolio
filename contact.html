@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ajay's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(19, 1, 28);
+            color: white;
+            font-family: "Google Sans", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(24, 3, 46);
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(166, 12, 204);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .contact-container {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .contact-container h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .purple {
+            color: rgb(123, 10, 118);
+        }
+
+        .contact-container p {
+            color: #aaa;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .contact-box {
+            background-color: rgb(30, 8, 43);
+            border: 1px solid rgb(108, 55, 108);
+            border-radius: 12px;
+            padding: 35px;
+            text-align: left;
+        }
+
+        .contact-item {
+            margin-bottom: 25px;
+        }
+
+        .contact-item h3 {
+            color: rgb(166, 12, 204);
+            margin-bottom: 8px;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            color: rgb(166, 12, 204);
+        }
+
+        .social-buttons {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 8px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: rgb(123, 10, 118);
+            border-color: rgb(166, 12, 204);
+        }
+
+        footer {
+            background-color: rgb(4, 4, 23);
+            margin-top: 100px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ajay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-container">
+            <h1>Contact <span class="purple">Me</span></h1>
+            <p>
+                I'm open to entry-level Software Development and IT opportunities.
+                Feel free to connect with me.
+            </p>
+            <div class="contact-box">
+                <div class="contact-item">
+                    <h3>📍 Location</h3>
+                    <p>
+                        Mahabubnagar, Telangana, India
+                    </p>
+                </div>
+                <div class="contact-item">
+                    <h3>💼 LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/ajay-sabhavath-387700298/" target="_blank">
+                        View my LinkedIn profile
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <h3>💻 GitHub</h3>
+                    <a href="https://github.com/sabavathajay93-ship-it" target="_blank">
+                        View my GitHub profile
+                    </a>
+                </div>
+                <div class="social-buttons">
+                    <a class="btn" href="https://github.com/sabavathajay93-ship-it" target="_blank">
+                        GitHub
+                    </a>
+                    <a class="btn" href="https://www.linkedin.com/in/ajay-sabhavath-387700298/" target="_blank">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-rights">
+            Copyright © Ajay's Portfolio | All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>

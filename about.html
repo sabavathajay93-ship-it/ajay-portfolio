@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ajay's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(19, 1, 28);
+            color: white;
+            font-family: "Google Sans", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(24, 3, 46);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(166, 12, 204);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .about-container {
+            max-width: 1000px;
+            margin: 80px auto;
+            padding: 40px;
+        }
+
+        .about-container h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .purple {
+            color: rgb(123, 10, 118);
+        }
+
+        .about-container p {
+            color: #c8c8c8;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .skills {
+            margin-top: 40px;
+        }
+
+        .skills h2 {
+            font-size: 2rem;
+            margin-bottom: 25px;
+        }
+
+        .skill-box {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 8px;
+            border: 1px solid rgb(123, 10, 118);
+            border-radius: 8px;
+            background-color: rgb(30, 10, 45);
+        }
+
+        footer {
+            background-color: rgb(4, 4, 23);
+            margin-top: 100px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ajay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about-container">
+            <h1>About <span class="purple">Me</span></h1>
+            <p>
+                Hi, I'm <strong>Sabhavath Ajay</strong>, a Computer Applications graduate
+                with a strong foundation in programming, web development, databases,
+                and software development.
+            </p>
+            <p>
+                I have knowledge of Java, Python, C, C++, HTML, CSS, MySQL and SQLite.
+                I enjoy building practical applications, solving programming problems,
+                and understanding how software works behind the scenes.
+            </p>
+            <p>
+                I have worked on academic projects including a Code Editor Software
+                and an E-Certificate Generating System using Python, Flask, SQLite,
+                ReportLab and QR code technology.
+            </p>
+            <p>
+                My current goal is to start my career in an entry-level Software
+                Development or IT role and continuously improve my skills in
+                full-stack development and data analysis.
+            </p>
+            <div class="skills">
+                <h2>Technical Skills</h2>
+                <span class="skill-box">Java</span>
+                <span class="skill-box">Python</span>
+                <span class="skill-box">C</span>
+                <span class="skill-box">C++</span>
+                <span class="skill-box">HTML</span>
+                <span class="skill-box">CSS</span>
+                <span class="skill-box">MySQL</span>
+                <span class="skill-box">MS Office</span>
+                <span class="skill-box">DSA</span>
+                <span class="skill-box">OOP's</span>
+                <span class="skill-box">RDBMS</span>
+                <span class="skill-box">Photoshop</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-rights">
+            Copyright © Ajay's Portfolio | All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
